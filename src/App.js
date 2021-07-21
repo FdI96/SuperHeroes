@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import {
+  Card,
+  CardText,
+  CardBody,
+  CardLink,
+  CardTitle,
+  CardSubtitle,
+} from "reactstrap";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Card>
+        <CardBody>
+          <CardTitle tag="h5">Card title</CardTitle>
+          <CardSubtitle tag="h6" className="mb-2 text-muted">
+            Card subtitle
+          </CardSubtitle>
+        </CardBody>
+        <img width="100%" src="/assets/318x180.svg" alt="Card image cap" />
+        <CardBody>
+          <CardText>
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </CardText>
+          <CardLink href="#">Card Link</CardLink>
+          <CardLink href="#">Another Link</CardLink>
+        </CardBody>
+      </Card>
     </div>
   );
 }
