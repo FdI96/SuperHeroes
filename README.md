@@ -85,7 +85,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/FdI96/Restaurant-App/issues).
+Feel free to check the [issues page](https://github.com/FdI96/SuperHeroes/issues).
 
 ## Show your support
 
