@@ -4,7 +4,7 @@ I'm glad to present this challenge from the company DESARROLLOS NEA, from Corrie
 
 # ERD
 
-[entity relationship diagram](./ERD/diagram)
+![entity relationship diagram](./ERD/diagram.png)
 
 # Getting Started with Create React App
 
