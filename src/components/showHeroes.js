@@ -1,18 +1,19 @@
 import React from "react";
-import heroes from "../model/heros.json";
-import { Card, CardSubtitle, CardTitle, CardText, Row, Col } from "reactstrap";
 
-const ShowHeroes = () => {
+import { Card, CardSubtitle, CardTitle, CardText, Row, Col } from "reactstrap";
+import { useState } from "react";
+
+const ShowHeroes = (props) => {
   return (
     <Row>
-      {heroes.map((element) => {
+      {props.heroesCollection.map((element) => {
         return (
           <Col sm="12">
             <Card body>
               <CardTitle tag="h5">{element.name}</CardTitle>
               <CardSubtitle tag="h6" className="mb-2 text-muted">
                 Team:
-                {element.team === []
+                {element.team === " "
                   ? "This hero works alone"
                   : element.team.map((e) => <div key="{e.name}">{e.name}</div>)}
               </CardSubtitle>
