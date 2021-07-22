@@ -1,17 +1,16 @@
 import React from "react";
 
 import { Card, CardSubtitle, CardTitle, CardText, Row, Col } from "reactstrap";
-import { useState } from "react";
 
 const ShowHeroes = (props) => {
   return (
     <Row>
       {props.heroesCollection.map((element) => {
         return (
-          <Col sm="12">
-            <Card body>
+          <Col>
+            <Card body color="success" className="card-height">
               <CardTitle tag="h5">{element.name}</CardTitle>
-              <CardSubtitle tag="h6" className="mb-2 text-muted">
+              <CardSubtitle tag="h6" className="mb-2">
                 Team:
                 {element.team === " "
                   ? "This hero works alone"

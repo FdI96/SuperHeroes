@@ -15,7 +15,11 @@ function App() {
         Add a hero
       </ButtonToggle>
       {toggle ? (
-        <AddHero toggle={setToggle} />
+        <AddHero
+          toggle={setToggle}
+          addHero={setHeroes}
+          heroesCollection={heroesCollection}
+        />
       ) : (
         <ShowHeroes heroesCollection={heroesCollection} />
       )}

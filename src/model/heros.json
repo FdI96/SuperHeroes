@@ -3,7 +3,7 @@
   "year": 40,
   "planet": "Virtrum",
   "mission": [{"code" :1, "description": "Save the day", "type": "MR"}, {"code" :2, "description": "Save a civilization", "type": "MSU"}],
-  "superpower":[{"code": 1, "description": "Super speed", "level": 10},{"code": 2, "description": "Super strenght","level": 10}],
+  "superpower":[{"code": 2, "description": "Super speed", "level": 10},{"code": 2, "description": "Super strenght","level": 10}],
   "team":[]
 },
 {
@@ -11,7 +11,7 @@
   "year": 21,
   "planet": "Virtrum",
   "mission": [{"code" :1, "description": "Put out fire", "type": "MR"}, {"code" :2, "description": "Save the world", "type": "MSU"}],
-  "superpower":[{"code": 1, "description": "Super speed","level": 8},{"code": 2, "description": "Super strenght","level": 7}],
+  "superpower":[{"code": 2, "description": "Super speed","level": 8},{"code": 2, "description": "Super strenght","level": 7}],
   "team":[{"id": 123, "name":"Space Guardians"}, {"id": 33, "name":"Earth protectors"}]
 },
 {
@@ -19,7 +19,7 @@
   "year": 4,
   "planet": null,
   "mission": [{"code" :1, "description": "Put out fire", "type": "MR"}, {"code" :2, "description": "Save the world", "type": "MSU"}],
-  "superpower":[{"code": 1, "description": "Super speed","level": 8},{"code": 2, "description": "Super strenght","level": 8}],
+  "superpower":[{"code": 2, "description": "Super speed","level": 8},{"code": 2, "description": "Super strenght","level": 8}],
   "team":[{"id": 22, "name":"Power Girls"}]
 },
 {
@@ -27,7 +27,7 @@
   "year": 4,
   "planet": null,
   "mission": [{"code" :1, "description": "Put out fire", "type": "MR"}, {"code" :2, "description": "Save the world", "type": "MSU"}],
-  "superpower":[{"code": 1, "description": "Super speed","level": 8},{"code": 2, "description": "Super strenght","level": 8}],
+  "superpower":[{"code": 2, "description": "Super speed","level": 8},{"code": 2, "description": "Super strenght","level": 8}],
   "team":[{"id": 22, "name":"Power Girls"}]
 },
 {
@@ -35,6 +35,6 @@
   "year": 4,
   "planet": null,
   "mission": [{"code" :1, "description": "Put out fire", "type": "MR"}, {"code" :2, "description": "Save the world", "type": "MSU"}],
-  "superpower":[{"code": 1, "description": "Super speed","level": 8},{"code": 2, "description": "Super strenght","level": 8}],
+  "superpower":[{"code": 2, "description": "Super speed","level": 8},{"code": 2, "description": "Super strenght","level": 8}],
   "team":[{"id": 22, "name":"Power Girls"}]
 }]
