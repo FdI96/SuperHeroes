@@ -1,6 +1,10 @@
 # Super-Hero user interface.
 
-I'm glad to present this challenge from the company DESARROLLOS NEA, from Corrientes, Argentina, where I'm going to create a user interface to fill a database with heroes and their information
+I'm glad to present this challenge from the company DESARROLLOS NEA, from Corrientes, Argentina, where I'm going to create a user interface with heroes and their information.
+
+# ERD
+
+[entity relationship diagram](./ERD/diagram)
 
 # Getting Started with Create React App
 
